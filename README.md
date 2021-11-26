@@ -1,6 +1,6 @@
 # ally_exercise
 
-Thus repository holds the code written for the Unicorn coding exercise (Ally Bank). The solution to the coding exercise requirements. 
+This repository holds the code written for the Unicorn coding exercise (Ally Bank). The solution to the coding exercise requirements. 
 
 As is written in the Coding Exercise Instructions, your Github Repo containing the basic Spring Boot App was cloned, "gs-rest-service", and then My New Code I added to
 the "complete" application. Note that: Your code contains 2 Main classes...2 Apps: "initial" and "complete". Thus:  to complete this coding exercise, 
