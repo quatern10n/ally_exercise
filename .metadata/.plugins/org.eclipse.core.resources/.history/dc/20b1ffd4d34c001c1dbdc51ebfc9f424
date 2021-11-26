@@ -1,0 +1,14 @@
+package com.example.restservice;
+
+public class Unicorn {
+	
+	private String name;
+	private String hairColor;
+	private int hornLength;
+	private String hornColor;
+	private int height;
+	private String heightUnit;
+	
+	
+
+}

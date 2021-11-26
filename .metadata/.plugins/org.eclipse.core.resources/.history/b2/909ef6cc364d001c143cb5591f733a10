@@ -1,0 +1,17 @@
+package com.example.restservice;
+
+import java.util.Random;
+
+public class UnicornProvider {
+	
+	
+	
+	public UnicornProvider() {
+
+
+	}
+	
+	public List<Unicorn> getAllUnicorns(){
+		
+	}
+}

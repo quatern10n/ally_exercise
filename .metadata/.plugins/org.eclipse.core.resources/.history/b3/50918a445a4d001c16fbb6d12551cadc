@@ -1,0 +1,13 @@
+ name VARCHAR(160) NOT NULL,
+  hair_color VARCHAR(200) DEFAULT NULL,
+  horn_color VARCHAR(200) DEFAULT NULL,
+  horn_length INT DEFAULT NULL,
+  height INT DEFAULT NULL,
+  height_units VARCHAR(10) DEFAULT NULL,
+  weight INT DEFAULT NULL,
+  weight_units VARCHAR(10) DEFAULT NULL
+
+INSERT INTO TBL_UNICORN (name, hair_color, horn_color, horn_length, height, height_units, weight, weight_units) VALUES
+  ('Lokesh', 'Gupta', 'abc@gmail.com'),
+  ('Deja', 'Vu', 'xyz@email.com'),
+  ('Caption', 'America', 'cap@marvel.com');

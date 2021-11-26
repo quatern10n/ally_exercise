@@ -1,0 +1,11 @@
+package com.example.restservice;
+
+public class UnicornIdent {
+	
+	private  long unicornId;
+	
+	public UnicornIdent() {
+		
+	}
+
+}

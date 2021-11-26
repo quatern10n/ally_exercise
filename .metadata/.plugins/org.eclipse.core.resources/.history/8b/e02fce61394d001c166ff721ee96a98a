@@ -1,0 +1,37 @@
+package com.example.restservice;
+
+import java.util.List;
+import java.util.Random;
+
+public class UnicornProvider {
+	
+	
+	
+	public UnicornProvider() {
+
+
+	}
+	
+	public List<Unicorn> getAllUnicorns(){
+		Unicorn unicorn1 = new Unicorn();
+	    unicorn1.setHairColor("brown");
+	    unicorn1.setHeight(8);
+	    unicorn1.setHeightUnit("feet");
+	    unicorn1.setHornColor("white");
+	    unicorn1.setHornLength(1);
+	    unicorn1.setHornColor("yellow");
+	    unicorn1.setName("Excelsior");
+	    unicorn1.setWeight(1000);
+	    unicorn1.setWeightUnit("lbs");
+	    
+	    Unicorn unicorn2 = new Unicorn();
+	    unicorn2.setName("Prissball");
+	    unicorn2.setHairColor("Black");
+	    unicorn2.setHeight(6);
+	    unicorn2.setHeightUnit("feet");
+	    unicorn2.setHornColor("white");
+	    unicorn2.setWeight(200);
+	    unicorn2.setWeightUnit("lbs");
+	    
+	}
+}

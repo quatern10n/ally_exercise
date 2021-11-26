@@ -1,0 +1,15 @@
+package com.example.restservice;
+
+import java.util.Random;
+
+public class UnicornIdent {
+	
+	private  long unicornId;
+	
+	public UnicornIdent() {
+		Random r = new Random();
+		
+		this.unicornId = r.nextLong();
+	}
+
+}

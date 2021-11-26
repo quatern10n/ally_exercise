@@ -1,0 +1,21 @@
+package com.example.restservice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Unicorn {
+	
+	private String name;
+	private String hairColor;
+	private int hornLength;
+	private String hornColor;
+	private int height;
+	private String heightUnit;
+	private int weight;
+	private String weightUnit;
+	private List<UnicornMarks> identifyingMarks;
+	
+    public Unicorn() {
+    	identifyingMarks = new ArrayList<>();
+    }
+}

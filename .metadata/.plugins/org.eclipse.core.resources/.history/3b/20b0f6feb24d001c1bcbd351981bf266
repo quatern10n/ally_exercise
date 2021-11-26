@@ -1,0 +1,5 @@
+INSERT INTO TBL_UNICORN (id, name, hair_color, horn_color, horn_length, height, height_units, weight, weight_units) VALUES
+  (NULL, 'starting-test-unicorn', 'white', 'yellow', 6, 'inches',8, 'feet', 600, 'pounds');
+  
+  
+  

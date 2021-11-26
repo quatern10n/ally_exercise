@@ -1,0 +1,46 @@
+package com.example.restservice;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UnicornProvider {
+	
+	
+	
+	public UnicornProvider() {
+
+
+	}
+	
+	public List<Unicorn> getAllUnicorns(){
+		Unicorn unicorn1 = new  Unicorn("Excelsior", "brown", 1,"yellow", 8, "feet", 1000, "pounds");
+	    unicorn1.setHairColor();
+	    unicorn1.setHeight(8);
+	    unicorn1.setHeightUnit("feet");
+	    unicorn1.setHornColor("white");
+	    unicorn1.setHornLength();
+	    unicorn1.setHornColor();
+	    unicorn1.setName();
+	    unicorn1.setWeight(1000);
+	    unicorn1.setWeightUnit();
+	    
+	    Unicorn unicorn2 = new Unicorn();
+	    unicorn2.setName("Prissball");
+	    unicorn2.setHairColor("Black");
+	    unicorn2.setHeight(6);
+	    unicorn2.setHeightUnit("feet");
+	    unicorn2.setHornColor("white");
+	    unicorn2.setWeight(200);
+	    unicorn2.setWeightUnit("lbs");
+	    unicorn2.setHornLength(2);
+	    unicorn2.setHornColor("white");
+	    unicorn2.setWeight(600);
+	    unicorn2.setWeightUnit("lbs");
+	    List<Unicorn> all = Arrays.asList(unicorn1, unicorn2);
+	    return all;
+	}
+}
